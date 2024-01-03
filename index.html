@@ -4,11 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>body{font-family:Arial,sans-serif;margin:0;padding:0;}header{background-color:#333;color:#fff;text-align:center;padding:1em 0;}nav ul{list-style-type:none;margin:0;padding:0;overflow:hidden;background-color:#333;}nav ul li{display:inline;margin-right:20px;}nav ul li a{text-decoration:none;color:#fff;}section{padding:20px;}footer{background-color:#333;color:#fff;text-align:center;padding:1em 0;}html{height:100%;}body{background:#000;color:#fff;margin:0;min-height:100%;height:100%;position:relative;}.hub{display:block;font-family:sans-serif;font-weight:bold;font-size:9vw;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}.hub span:nth-child(2){background:#FF9900;color:#000;border-radius:1vw;padding:0 1vw 1vw 1vw;display:inline-block;}</style>
+    <style>
+        /* Amoghhub website styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hub {
+            display: block;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 6vw; /* Adjusted for better mobile responsiveness */
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .hub span:nth-child(2) {
+            background: #FF9900;
+            color: #000;
+            border-radius: 1vw;
+            padding: 0.5vw;
+            display: inline-block;
+            margin-top: 0.5vw;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: block; /* Changed to block for better mobile layout */
+            margin-bottom: 10px; /* Adjusted for spacing */
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            padding: 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
     <title>Amoghhub</title>
 </head>
 
 <body>
+
+    <div class="hub">
+        <span contenteditable="true">Amog</span>
+        <span contenteditable="true">hub</span>
+    </div>
 
     <header>
         <h1>Welcome to Amoghhub</h1>
@@ -61,11 +132,6 @@
     <footer>
         <p>&copy; 2024 Amoghhub. All rights reserved.</p>
     </footer>
-
-    <div class="hub">
-        <span contenteditable="true">Amog</span>
-        <span contenteditable="true">hub</span>
-    </div>
 
 </body>
 
